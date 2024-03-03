@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Food SI PREP</string>
+    <string name="app_welcome_text">Welcome to <b><font color="#E91212">FoodSI Prep</font></b></string>
+    <string name="app_description">Here you will get all the mcqs related to your syllabus. This has arithmetic, social studies every necessary questions which
+        will help you to prepare well for the exam. You will also find past years questions-solution.Best of luck!
+    </string>
+    <string name="category_name_arithmetic">Arithmetic</string>
+    <string name="category_name_social_studies">Social Studies</string>
+    <string name="select_category_text_view">Select a Category   <font color="#E91212">*</font></string>
+    <string name="select_sub_category_text_view">Select a Sub-Category   <font color="#E91212">*</font></string>
+    <string-array name="category">
+        <item>Arithmetic</item>
+        <item>Social Studies</item>
+    </string-array>
+    <string-array name="arithmetic">
+        <item>Number System</item>
+        <item>Simplification</item>
+        <item>Missing \nNumber Series</item>
+        <item>Ratio &amp; Proportion</item>
+        <item>HCF &amp; LCM</item>
+        <item>Percentage</item>
+        <item>Average</item>
+        <item>Profit &amp; Loss</item>
+        <item>Simple &amp; \nCompound Interest</item>
+        <item>Time &amp; Work</item>
+        <item>Speed, Time \n&amp; Distance</item>
+        <item>Work &amp; Wage</item>
+        <item>Allegation\n or \nMixture</item>
+        <item>Boats &amp; Stream</item>
+        <item>Age problems</item>
+        <item>Decimal fractions</item>
+        <item>Pipes and cistern</item>
+    </string-array>
+    <string-array name="social_studies">
+        <item>Indian History</item>
+        <item>Indian Culture</item>
+        <item>Indian Constitution</item>
+        <item>Political System</item>
+        <item>Indian Administration</item>
+        <item>Current Events</item>
+        <item>Indian Geography</item>
+        <item>Indian Economy</item>
+        <item>Sports &amp; \nWinners</item>
+        <item>Indian Agriculture</item>
+        <item>Environment &amp; \nEcosystem</item>
+        <item>Books &amp; Authors</item>
+        <item>International Mou</item>
+        <item>Role of science in technology</item>
+    </string-array>
+</resources>

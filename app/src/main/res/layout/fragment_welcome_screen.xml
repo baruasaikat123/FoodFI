@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProjectFragments.WelcomeScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:background="@drawable/design_splash"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_welcome_text"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lora_italic"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_description"
+            android:paddingLeft="50dp"
+            android:paddingRight="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/app_light_grey"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/get_started_btn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/app_main"
+            android:text="Get Started"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            app:cornerRadius="12dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:iconTint="@color/white"
+            app:icon="@drawable/ic_arrow_forward"
+            app:iconGravity="textEnd"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

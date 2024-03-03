@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "439901241301",
+    "project_id": "food-si-78b57",
+    "storage_bucket": "food-si-78b57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439901241301:android:b4a0ef8058bdeedf12075c",
+        "android_client_info": {
+          "package_name": "com.example.foodsi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaB4tyQs-IC0ovlFxX_eiVM2C6lmS7Q1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
